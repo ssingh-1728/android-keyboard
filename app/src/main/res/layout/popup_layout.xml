@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.ghostman.keyboard.LatinKeyboardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/keyboardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/key_preview_background"
+
+    android:keyTextSize="26sp"
+    android:keyBackground="@color/key_preview_background"
+    android:keyPreviewOffset="50dp"
+    android:keyPreviewHeight="90dp"
+    android:keyPreviewLayout="@layout/preview"
+
+    android:keyTextColor="#000" />
